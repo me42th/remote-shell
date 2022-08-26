@@ -12,7 +12,7 @@
 **Edit this file with your information, data need be equals in both environments:**
 > config/remote-shell.php
 
-### **APP_DEBUG needs be true**
-
 **Be happy:**
 > php artisan remote:shell
+
+**APP_DEBUG needs be true**
