@@ -1,5 +1,6 @@
 # Install instructions
 
+**Execute this:**
 > composer require davidmeth/remote-shell
 
 **Put this in providers array:**
