@@ -15,8 +15,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "files":[
-        "helper.php"
-    ]
+    "require": {}
 }
