@@ -1,0 +1,22 @@
+{
+    "name": "davidmeth/remote-shell",
+    "description": "Remote shell with soap",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Me42th\\RemoteShell\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "me42th",
+            "email": "david.meth@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "files":[
+        "helper.php"
+    ]
+}
