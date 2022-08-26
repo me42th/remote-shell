@@ -2,13 +2,15 @@
 
 > composer require davidmeth/remote-shell
 
-**providers array:**
+**Put this inproviders array:**
 > Me42th\RemoteShell\RemoteShellServiceProvider::class,
 
 > php artisan vendor:publish
 
-**edit**
+**Edit this file with your information, data need be equals in both environments**
 > config/remote-shell.php
 
-**be happy**
+**APP_DEBUG needs be true**
+
+**Be happy**
 > php artisan remote:shell
