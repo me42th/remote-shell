@@ -4,7 +4,7 @@
 > composer require davidmeth/remote-shell
 
 **Execute this:**
->  php artisan remote:shell
+>  php artisan remote:install
 
 **Edit this file:**
 > config/remote-shell.php
