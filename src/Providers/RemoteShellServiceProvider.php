@@ -3,7 +3,7 @@
 namespace Me42th\RemoteShell\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Me42th\RemoteShell\Console\Command as cmd;
+use Me42th\RemoteShell\Console\Commands as cmd;
 use Me42th\RemoteShell\Services as srv;
 
 class RemoteShellServiceProvider extends ServiceProvider
