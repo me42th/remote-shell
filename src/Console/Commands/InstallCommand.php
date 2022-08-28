@@ -37,7 +37,8 @@ class InstallCommand extends Command
      */
     public function handle(srv\InstallService $install)
     {
-        $install->go();
+       $this->info('here');
+       $install->go();
        return 0;
     }
 }
