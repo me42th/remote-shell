@@ -17,7 +17,8 @@ class RemoteShellServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                cmd\ClientCommand::class
+                cmd\ClientCommand::class,
+                cmd\InstallCommand::class
             ]);
             $this->app->bind('ClientService',function(){
                 return new srv\ClientService;

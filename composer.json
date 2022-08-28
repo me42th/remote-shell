@@ -22,12 +22,6 @@
                 "Me42th\\RemoteShell\\Providers\\RemoteShellServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan inspire"
-        ]
     }
 }
 
