@@ -3,12 +3,12 @@ function cmd($token,$cmd){
     if($token !== config('remote-shell.token')){
         throw new Exception('Invalid token');
     }
-    exec($cmd, $out);
+    exec("cd .. && $cmd", $out);
     $out = implode("\n",$out);
     return base64_encode($out);
 }
 
-namespace Me42th\RemoteShell;
+namespace Me42th\RemoteShell\Services;
 class ServerService {
 
     public function startup(){

@@ -1,5 +1,5 @@
 <?php
-namespace Me42th\RemoteShell;
+namespace Me42th\RemoteShell\Services;
 
 class ClientService{
     public function dispatch($cmd){

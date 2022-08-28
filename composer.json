@@ -15,5 +15,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Me42th\\RemoteShell\\Providers\\RemoteShellServiceProvider"
+            ]
+        }
+    }
 }
+
