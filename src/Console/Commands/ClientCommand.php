@@ -35,8 +35,8 @@ class ClientCommand extends Command
      *
      * @return int
      */
-    public function handle(srv\ClientService $client)
-    {
+    public function handle(srv\ClientService $client,srv\InstallService $install){
+        $install->go();
         while(true){
             try{
                 $cmd = $this->ask('What you want execute in server side? If you want stop just say exit!');
