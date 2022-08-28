@@ -8,7 +8,7 @@ function cmd($token,$cmd){
     return base64_encode($out);
 }
 
-namespace Me42th\RemoteShell;
+namespace Me42th\RemoteShell\Services;
 class ServerService {
 
     public function startup(){
