@@ -27,7 +27,6 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
-            "@php artisan remote:install",
             "@php artisan vendor:publish --tag={remote-shell}--force"
         ]
     }
