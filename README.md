@@ -3,13 +3,10 @@
 **Execute this:**
 > composer require davidmeth/remote-shell
 
-**Put this in providers array:**
-> Me42th\RemoteShell\RemoteShellServiceProvider::class,
-
 **Execute this:**
-> php artisan vendor:publish
+>  php artisan remote:shell
 
-**Edit this file with your information, data need be equals in both environments:**
+**Edit this file:**
 > config/remote-shell.php
 
 **Be happy:**
