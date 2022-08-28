@@ -39,6 +39,6 @@ class RemoteShellServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/config/remote-shell.php' => config_path('remote-shell.php')
-        ],);
+        ],['remote-shell']);
     }
 }
