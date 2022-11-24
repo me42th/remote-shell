@@ -26,7 +26,7 @@ class RemoteShellServiceProvider extends ServiceProvider
             $this->app->bind('ServerService',function(){
                 return new srv\ServerService;
             });
-        } else if (config('app.debug')){
+        } else {
             $this->loadRoutesFrom(__DIR__.'/routes/routes.php');
         }
     }
